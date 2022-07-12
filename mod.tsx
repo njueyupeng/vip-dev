@@ -9,7 +9,7 @@ const handler = (req: Request) => html({
       class="flex flex-col items-center justify-center w-full h-screen"
       style="background-image:url('https://dash.deno.com/assets/background-pattern.svg')"
     >
-      <h1 class="text-4xl font-bold">Hello CGQAQ!!</h1>
+      <h1 class="text-4xl font-bold">Hello CGQAQ!</h1>
       <p class="mt-2 text-lg text-center text-gray-600">Develop Locally, Deploy Globally</p>
       <footer class="fixed bottom-8 w-full h-6 flex items-center justify-center gap-2 text-gray-800">
         Powered by
