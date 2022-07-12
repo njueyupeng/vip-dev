@@ -11,7 +11,10 @@ const colors = [
   "#b0e0e6",
   "#ffc3a0",
   "#66cdaa",
-  "#101010"
+  "#3399ff",
+  "#ccff00",
+  "#a0db8e",
+  "#808080"
 ] as readonly string[];
 
 const handler = (req: Request) => html({
