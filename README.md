@@ -1,3 +1,3 @@
 # cgqaq-dev
 
-## code for [cgqaq.deno.dev](https://cgqaq.deno.dev/)
+## code for [supervip.deno.dev](https://supervip.deno.dev/)
