@@ -24,7 +24,7 @@ const handler = (req: Request) => html({
       class="flex flex-col items-center justify-center w-full h-screen"
       style="background-image:url('https://dash.deno.com/assets/background-pattern.svg')"
     >
-      <h1 class="text-4xl font-bold">Hello <span style={ `color: ${colors[Math.floor(Math.random() * 100_000 % colors.length)]}` }>CGQAQ</span>!</h1>
+      <h1 class="text-4xl font-bold">Hello <span style={ `color: ${colors[crypto.getRandomValues(new Uint32Array(1))[0] % colors.length]}` }>CGQAQ</span>!</h1>
       <p class="mt-2 text-lg text-center text-gray-600">Develop Locally, Deploy Globally</p>
       <footer class="fixed bottom-8 w-full h-6 flex items-center justify-center gap-2 text-gray-800">
         Powered by
